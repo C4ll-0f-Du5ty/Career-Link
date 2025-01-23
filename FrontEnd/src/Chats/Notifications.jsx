@@ -66,8 +66,6 @@ const Notification = () => {
     return (
         <div
             className="relative"
-        // onMouseEnter={handleMouseEnter}
-        // onMouseLeave={handleMouseLeave}
         >
             <Button className="bg-white text-blue-500 p-2 rounded-lg" onClick={toggleNotifications}>🔔 Notifications</Button>
             {showNotifications && (
