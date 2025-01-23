@@ -71,8 +71,6 @@ const Notification = () => {
             {showNotifications && (
                 <div
                     className="absolute top-10 left-0 w-64 bg-white shadow-lg rounded-lg p-4"
-                // onMouseEnter={handleMouseEnter}
-                // onMouseLeave={handleMouseLeave}
                 >
                     {notifications.length > 0 ? (
                         notifications.map((notification) => (
