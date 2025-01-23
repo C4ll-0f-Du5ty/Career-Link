@@ -11,11 +11,6 @@ const Register = () => {
     const [error, setError] = useState('');
     const navigate = useNavigate();
 
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    //     // Add your registration logic here
-    //     console.log('Registration submitted:', name, email, password);
-    // };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
