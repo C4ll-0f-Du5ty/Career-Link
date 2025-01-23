@@ -96,13 +96,7 @@ export const AuthProvider = ({ children }) => {
             const updatedUser = prev ? { ...prev, username: newUsername } : prev;
             console.log("Updated User:", updatedUser); // Log after update
 
-            // const newAccessToken = jwtEncode(updatedUser, "Dusty");
 
-            // // Update the authTokens with the new access token
-            // setAuthTokens((prevTokens) => ({
-            //     ...prevTokens,
-            //     access: newAccessToken,
-            // }));
             return updatedUser;
         });
 
