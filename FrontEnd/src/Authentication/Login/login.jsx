@@ -30,11 +30,6 @@ function Login() {
             <div className="flex-grow flex flex-col justify-center px-6 py-12 lg:px-8">
                 <div className="w-full max-w-md mx-auto space-y-8">
                     <div className="flex justify-center mb-4">
-                        {/* <img
-                            alt="Your Company"
-                            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                            className="h-16 w-auto transition-all duration-300 ease-in-out transform hover:scale-110"
-                        /> */}
                     </div>
                     <div className="rounded-lg shadow-xl overflow-hidden bg-white transition-shadow duration-300 ease-in-out hover:shadow-2xl">
                         <div className="px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
@@ -103,7 +98,6 @@ function Login() {
                                     >
                                         {showError && (
                                             <span className="absolute inset-y-0 left-0 flex items-center pl-3">
-                                                {/* Heroicon name: solid/exclamation-circle */}
                                                 <svg className="h-5 w-5 text-red-500 group-hover:text-red-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                                     <path fillRule="evenodd" d="M18 10a1 1 0 01-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-3a1 1 0 015-5h8a1 1 0 015 5zM7 8a1 1 0 012 0v6a1 1 0 102 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 100 2V8a1 1 0 110-2z" clipRule="evenodd" />
                                                 </svg>
