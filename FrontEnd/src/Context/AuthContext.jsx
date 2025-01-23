@@ -92,16 +92,12 @@ export const AuthProvider = ({ children }) => {
 
     let updateUsername = (newUsername) => {
         setUser((prev) => {
-            console.log("Previous User:", prev); // Log before update
             const updatedUser = prev ? { ...prev, username: newUsername } : prev;
-            console.log("Updated User:", updatedUser); // Log after update
 
 
             return updatedUser;
         });
 
-        // const newAccessToken = jwtEncode(user);
-        // localStorage.setItem("authTokens", JSON.stringify(data))
     };
 
     console.log('Context', user)
